@@ -1,0 +1,30 @@
+KNN
+
+
+K=7
+
+
+7000 ---- 7 nearest ---  12 13 12 15 	16 17 	19
+						23	34	45	67	78	90
+
+prediction ---    avg(1/23*12 + 13+ 12+ 15 16 17 19)/w1+w2
+
+
+2    99
+1/2  1/99
+
+KNN regressor  ---ML model   -------
+
+
+ KFOLD CV  -----
+ Grid search CV enhanced form for KFOLD CV
+ 
+ 
+---params
+
+
+ 
+ 
+ 
+ 
+ 
