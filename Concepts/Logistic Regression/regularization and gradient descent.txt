@@ -1,0 +1,31 @@
+y_hat=m1x1+m1x2
+
+
+y - y_hat ==error---minizise
+
+J(B) ==C=  summation(y-y_hat)**2==SSE
+
+
+b1 ==slope
+
+RIDGE:
+COST FUNCTION
+    SSE + alpha * (s1**2+s2**2)---minimize
+----------------------------------------------
+LASSO
+
+     SSE + alpha * (|s1|+|s2|)  ---minimize
+-------------------------------
+ELASTIC NET
+SSE + alpha *l1_ratio  (|s1|) + alpha * (1-l1_ratio) (s1**2)
+
+--------------------
+
+#LOGISTIC RGRESSION
+	 C parameter  == 1/alpha
+-----------------------
+
+gradient descent
+convergence theorem/algo
+m=m_initial - (first order derivateive) * learning rate
+

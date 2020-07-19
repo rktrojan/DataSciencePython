@@ -1,0 +1,13 @@
+BGFS
+LBGFS
+
+https://en.wikipedia.org/wiki/Broyden%E2%80%93Fletcher%E2%80%93Goldfarb%E2%80%93Shanno_algorithm
+
+
+
+HESSIAN MATRIX ---
+
+------------------------------
+sag vs saga
+
+STOCHASTIC GD vs GD
