@@ -1,0 +1,13 @@
+y=b1x1  + b2x2
+
+
+w=[3 4]
+
+
+||w|| ==square(9 +16) =5
+
+
+
+Lagrange multiplier
+
+

@@ -1,0 +1,15 @@
+y=m1x1+m2x2  +b
+
+w=[m1 m2 ]
+
+x=[x1 x2]
+
+y=w(T)*x  +b
+
+matrix algebra  ---
+[11 22] [33 44]
+
+1*2   1*2
+
+
+[1 2 3]  ---transpose === 
