@@ -1,0 +1,55 @@
+    ||y - Xw||^2_2 + alpha *   ||w||^2
+	 ||y - Xw||^2_2 + alpha *   (w1**2 + w2**2 )
+	
+	
+	
+	Minimization objective = LS Obj + α * (sum of square of coefficients)
+	
+	
+	
+	
+	
+	w  ==== ||w||   ----- vector algebra  --- S V M  
+	norm of a vector 
+
+	
+	
+f1,f2,f3,f4
+
+w = [w1,w2,w3,w4]
+
+
+[w1,w2]
+norm for a vector----sqrt(w1**2 + w2**2 )
+L2 form of a vector
+
+y= w x  +c --linear form 
+
+
+--- matrix form  --- matrix algebra -- determinant/transpose/Inverse --
+
+
+--------------------------------------
+
+ (1 / (2 * n_samples)) * ||y - Xw||^2_2 + alpha * ||w||_1
+
+
+
+w=[w1,w2,w3,w4]
+
+||w|| ==  |-2| + |w2|
+
+
+
+
+Minimization objective = LS Obj + α * (sum of absolute value of coefficients)
+
+
+
+
+
+
+
+
+
+
