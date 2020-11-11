@@ -1,0 +1,22 @@
+ValueError: Input 0 of layer
+sequential_9 is incompatible with the layer: :
+#expected min_ndim=4, found ndim=3. Full shape received: [32, 28, 28]
+
+
+solution - change the input train data shape to 4 dimensions
+
+==================================================================================================================
+
+ValueError: Creating variables on a non-first call to a function decorated with tf.function.
+
+solution - input train data was INT, it must be float
+
+====================================================================================================================
+
+C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\def_function.py in _call(self, args, **kwds) 805 # In this case we have created variables on the first call, so we run the 806 # defunned version which is guaranteed to never create variables. --> 807 return self._stateless_fn(args, **kwds) # pylint: disable=not-callable 808 elif self._stateful_fn is not None: 809 # Release the lock early so that multiple threads can perform the call
+
+TypeError: 'NoneType' object is not callable
+
+
+solution -  just restart the kernel, if still not solved then close all CLI/windows and restart the jupyter notebook
+=====================================================================================================================
